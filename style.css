@@ -38,7 +38,7 @@ nav a:hover {
 }
 
 .hero {
-    background-image: url('https://picsum.photos/1200/400?random=1');
+    background-image: url('images/PXL_20230226_235607164.jpg');
     background-size: cover;
     background-position: center;
     height: 400px;
@@ -108,8 +108,20 @@ nav a:hover {
 
 .contact {
     background-color: #007bff;
+    background-image: url('images/image_a57a4ef4-90ab-4c48-b636-be3a9c0945ce20230624_043232.jpg');
+    background-position: center;
+    background-size: cover;
     color: white;
     text-align: center;
+}
+
+.contact h2 {
+    font-size: 2.5rem;
+}
+
+.contact p,
+.contact a {
+    font-size: 1.5rem;
 }
 
 .contact a {
@@ -119,6 +131,22 @@ nav a:hover {
 
 .contact a:hover {
     text-decoration: underline;
+}
+
+.linkedin-image-placeholder {
+    padding: 1rem;
+    text-align: center;
+}
+
+.linkedin-image-placeholder img {
+    width: 240px;
+    height: 240px;
+    object-fit: cover;
+    border: 6px solid #14b8a6;
+    border-radius: 16px;
+    box-shadow: 0 10px 24px rgba(20, 184, 166, 0.28), inset 0 0 0 3px rgba(255, 255, 255, 0.75);
+    background: linear-gradient(135deg, #e6fffb 0%, #d1fae5 100%);
+    padding: 4px;
 }
 
 footer {
