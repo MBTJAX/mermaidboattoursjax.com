@@ -90,6 +90,10 @@ nav a:hover {
     margin-bottom: 1rem;
 }
 
+.about p {
+    text-align: center;
+}
+
 .gallery {
     background-color: #fff;
 }
