@@ -25,6 +25,10 @@ header h1 {
 
 nav {
     margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 nav a {
@@ -37,8 +41,25 @@ nav a:hover {
     text-decoration: underline;
 }
 
+.faq-nav-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+}
+
+.faq-nav-icon {
+    width: 1.2rem;
+    height: 1.2rem;
+    fill: none;
+    stroke: currentColor;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 1.8;
+    vertical-align: middle;
+}
+
 .hero {
-    background-image: url('images/PXL_20230226_235607164.jpg');
+    background-image: url('images/hero-banner-sunset.jpg');
     background-size: cover;
     background-position: center;
     height: 400px;
