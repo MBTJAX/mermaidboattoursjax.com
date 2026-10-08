@@ -156,9 +156,15 @@ nav a:hover {
     font-size: 1.5rem;
 }
 
-.contact a {
+.contact-call-link,
+.contact-linkedin-link {
     color: white;
     text-decoration: underline;
+}
+
+.contact a {
+    color: white;
+    text-decoration: none;
 }
 
 .contact a:hover {
